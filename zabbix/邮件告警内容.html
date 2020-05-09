@@ -1,0 +1,120 @@
+--告警红色
+
+<table border="1"  bordercolor="black" cellspacing="0px" cellpadding="4px">
+ <tr>
+ <td>告警主机</td>
+ <td bgcolor="#FF0000">{HOSTNAME1}</td>
+ </tr>
+ 
+ <tr>
+ <td>主机名称</td>
+ <td>{HOST.NAME}</td>
+ </tr>
+ 
+ <tr>
+ <td>主机IP</td>
+ <td>{HOST.CONN}</td>
+ </tr>
+ 
+ <tr>
+ <td>告警时间</td>
+ <td>{EVENT.DATE} {EVENT.TIME}</td>
+ </tr>
+ 
+ <tr>
+ <td>告警等级</td>
+ <td>{TRIGGER.SEVERITY}</td>
+ </tr>
+ 
+ <tr>
+ <td>告警信息</td>
+ <td>{TRIGGER.NAME}</td>
+ </tr>
+ 
+ <tr>
+ <td>告警项目</td>
+ <td>{TRIGGER.KEY1}</td>
+ </tr>
+ 
+ <tr >
+ <td>问题详情</td>
+ <td bgcolor="#FF0000">{ITEM.NAME}: {ITEM.VALUE}</td>
+ </tr>
+ 
+ <tr>
+ <td>当前状态</td>
+ <td>{TRIGGER.STATUS}: {ITEM.VALUE1}</td>
+ </tr>
+ 
+ <tr>
+ <td>事件ID</td>
+ <td>{EVENT.ID}</td>
+ </tr>
+ 
+ <tr>
+ <td>触发器URL</td>
+ <td>{TRIGGER.URL}</td>
+ </tr>
+ </table>
+ 
+ 
+ 
+ 
+ --恢复绿色
+ 
+ <table border="1"  bordercolor="black" cellspacing="0px" cellpadding="4px">
+ <tr >
+ <td>告警主机</td>
+ <td bgcolor="#00FF00">{HOSTNAME1}</td>
+ </tr>
+ 
+ <tr>
+ <td>主机名称</td>
+ <td>{HOST.NAME}</td>
+ </tr>
+ 
+ <tr>
+ <td>主机IP</td>
+ <td>{HOST.CONN}</td>
+ </tr>
+ 
+ <tr>
+ <td>恢复时间</td>
+ <td>{EVENT.RECOVERY.DATE}  {EVENT.RECOVERY.TIME}</td>
+ </tr>
+ 
+ <tr>
+ <td>告警等级</td>
+ <td>{TRIGGER.SEVERITY}</td>
+ </tr>
+ 
+ <tr>
+ <td>告警信息</td>
+ <td>{TRIGGER.NAME}</td>
+ </tr>
+ 
+ <tr>
+ <td>告警项目</td>
+ <td>{TRIGGER.KEY1}</td>
+ </tr>
+ 
+ <tr >
+ <td>问题详情</td>
+ <td bgcolor="#00FF00">{ITEM.NAME}: {ITEM.VALUE}</td>
+ </tr>
+ 
+ <tr>
+ <td>当前状态</td>
+ <td>{TRIGGER.STATUS}: {ITEM.VALUE1}</td>
+ </tr>
+ 
+ <tr>
+ <td>事件ID</td>
+ <td>{EVENT.ID}</td>
+ </tr>
+ 
+ <tr>
+ <td>触发器URL</td>
+ <td>{TRIGGER.URL}</td>
+ </tr>
+ </table>
