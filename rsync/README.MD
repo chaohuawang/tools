@@ -1,3 +1,11 @@
+[TOC]
+
+# 服务器端启动服务
+```bash
+systemctl start  rsyncd
+systemctl enable rsyncd
+```
+
 # 客户端同步方式，服务端要开启 tcp:873 端口
 
 ## 完全与本地目录`/var/lib/s/upload/`同步,本地增加删除都会同步到目标服务器上，需要--delete 参数
